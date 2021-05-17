@@ -1,0 +1,91 @@
+.header-inner {
+  display: flex;
+  justify-content: space-between; }
+
+.header__left-list {
+  margin-left: 4.56rem; }
+
+.header__left-item {
+  margin-right: 2.625rem; }
+  .header__left-item:last-child {
+    margin-right: 0; }
+
+.header__left-link {
+  font-family: "QuicksandBold";
+  font-weight: bold;
+  font-size: 0.75rem;
+  line-height: 1.25; }
+
+.header__right-item {
+  margin-right: 2, 3125rem; }
+  .header__right-item:last-child {
+    margin-right: 0; }
+
+.logo {
+  width: 26px;
+  height: 26px;
+  background-color: #5E81FE;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
+
+@font-face {
+  font-family: "RobotoMedium";
+  src: url("./../../fonts/Roboto-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../../../fonts/Roboto-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "QuicksandMedium";
+  src: url("./../../fonts/Quicksand-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "QuicksandBold";
+  src: url("./../../fonts/Quicksand-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("./../../fonts/OpenSans-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: url("./../../fonts/OpenSans-Bold.ttf") format("truetype"); }
+
+.logo {
+  width: 26px;
+  height: 26px;
+  background-color: #5E81FE;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
+
+.header-inner {
+  display: flex;
+  justify-content: space-between; }
+
+.header__left-list {
+  margin-left: 4.56rem; }
+
+.header__left-item {
+  margin-right: 2.625rem; }
+  .header__left-item:last-child {
+    margin-right: 0; }
+
+.header__left-link {
+  font-family: "QuicksandBold";
+  font-weight: bold;
+  font-size: 0.75rem;
+  line-height: 1.25; }
+
+.header__right-item {
+  margin-right: 2, 3125rem; }
+  .header__right-item:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=style.min.css.map */
