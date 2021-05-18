@@ -35,6 +35,12 @@
 }
 
 
+ul,
+li {
+    list-style: none;
+}
+
+
 @import './_vars.scss';
 @import './_mixins.scss';
 
@@ -45,3 +51,4 @@
 
 @import './_header.scss';
 @import './_hero.scss';
+@import './_customers.scss';

@@ -32,9 +32,8 @@
       @include textEdit(Roboto, 400, 0.9375rem, 1.93);
 
       letter-spacing: 0.03em;
+
+      color: $secondaryColor;
    }
 
-   .hero__video {
-      margin-bottom: 20px;
-   }
 }

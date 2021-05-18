@@ -1,3 +1,50 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./../../fonts/Roboto-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto";
+  src: url("../../../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+    font-family: "Quicksand";
+  src: url("./../../fonts/Quicksand-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+    font-family: "Quicksand";
+  src: url("./../../fonts/Quicksand-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+    font-family: "OpenSans";
+  src: url("./../../fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+    font-family: "OpenSans";
+  src: url("./../../fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+.logo {
+    width: 26px;
+    height: 26px;
+    background-color: #5E81FE;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
 .header-inner {
     display: -ms-flexbox;
     display: flex;
@@ -30,4 +77,39 @@
 
 .header__right-item:last-child {
     margin-right: 0;
+}
+
+.hero .hero__name {
+    padding-top: 70px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 0.625rem;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #5E81FE;
+}
+
+.hero .hero__title {
+    padding-bottom: 28px;
+    font-family: Quicksand;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.25;
+    color: #3D4F9F;
+}
+
+.hero .hero__txt {
+    max-width: 29rem;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.93;
+    letter-spacing: 0.03em;
+}
+
+.hero .hero__video {
+    margin-bottom: 20px;
 }
