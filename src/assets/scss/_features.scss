@@ -1,0 +1,115 @@
+.features {
+   padding: 171px 0;
+
+   background-image: url('/assets/images/features/clouds.png');
+   background-repeat: no-repeat;
+   background-position-y: 113px;
+
+   .features__top {
+      margin-bottom: 20px;
+
+      @include textEdit(Roboto, 500, 0.625rem, 1.2);
+
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+
+      color: $titleColor;
+   }
+
+   .features__title {
+      display: block;
+      margin-bottom: 92px;
+
+      @include textEdit(Quicksand, 500, 1.5rem, 1.25);
+
+      font-family: Quicksand;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 30px;
+
+      text-align: center;
+      color: $titleColor;
+
+   }
+
+   .feauters__columns {
+      margin-bottom: 92px;
+   }
+
+   .feauters__column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .column__img-wrap {
+      margin-bottom: 33px;
+
+      padding-top: 20px;
+
+      width: 69px;
+      height: 69px;
+
+      background-color: #F1F5FF;
+
+
+
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+   }
+
+   .column__title {
+      margin-top: 25px;
+
+      @include textEdit(OpenSans, 700, 0.625rem, 1.7);
+
+      text-align: center;
+
+      color: #4074F8;
+   }
+
+   .column__txt {
+      max-width: 120px;
+      margin: 0 auto;
+
+      @include textEdit(OpenSans, 600, 0.6875rem, 1.7);
+
+      text-align: center;
+
+      color: #ADB3CB;
+   }
+
+   .features__btns {
+      span {
+         padding: 0 47px;
+
+         @include textEdit(OpenSans, 600, 0.6875rem, 1.7);
+
+         text-align: center;
+         color: #ADB3CB;
+      }
+
+      .features__btn {
+         width: 113px;
+         height: 43px;
+
+         @include textEdit(Quicksand, 700, 0.8125rem, 1.2);
+
+         border-style: none;
+         border-radius: 2px;
+
+         &:first-child {
+            background-color: #FFD7D7;
+         }
+
+         &:last-child {
+            background-color: #D2E1FF;
+         }
+
+      }
+   }
+}
