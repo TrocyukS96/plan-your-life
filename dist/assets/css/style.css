@@ -1,28 +1,33 @@
-.logo {
-    width: 26px;
-    height: 26px;
-    background-color: #5E81FE;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-
-.logo {
-    width: 26px;
-    height: 26px;
-    background-color: #5E81FE;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-
 .header-inner {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
     justify-content: space-between;
+}
+
+.header__left-list {
+    margin-left: 4.56rem;
+}
+
+.header__left-item {
+    margin-right: 2.625rem;
+}
+
+.header__left-item:last-child {
+    margin-right: 0;
+}
+
+.header__left-link {
+    font-family: "QuicksandBold";
+    font-weight: bold;
+    font-size: 0.75rem;
+    line-height: 1.25;
+}
+
+.header__right-item {
+    margin-right: 2, 3125rem;
+}
+
+.header__right-item:last-child {
+    margin-right: 0;
 }

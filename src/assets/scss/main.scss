@@ -1,34 +1,47 @@
 @font-face {
-    font-family: "RobotoMedium";
+    font-family: "Roboto";
     src: url("./../../fonts/Roboto-Medium.ttf") format("truetype");
+    font-weight: 500;
 }
 
 @font-face {
-    font-family: "RobotoRegular";
+    font-family: "Roboto";
     src: url("../../../fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
 }
 
 @font-face {
-    font-family: "QuicksandMedium";
+    font-family: "Quicksand";
     src: url("./../../fonts/Quicksand-Medium.ttf") format("truetype");
+    font-weight: 500;
 }
 
 @font-face {
-    font-family: "QuicksandBold";
+    font-family: "Quicksand";
     src: url("./../../fonts/Quicksand-Bold.ttf") format("truetype");
+    font-weight: 700;
 }
 
 @font-face {
-    font-family: "OpenSansBold";
+    font-family: "OpenSans";
     src: url("./../../fonts/OpenSans-Bold.ttf") format("truetype");
+    font-weight: 700;
 }
 
 @font-face {
-    font-family: "OpenSansSemiBold";
+    font-family: "OpenSans";
     src: url("./../../fonts/OpenSans-Bold.ttf") format("truetype");
+    font-weight: 600;
 }
 
 
+@import './_vars.scss';
+@import './_mixins.scss';
 
-@import './logo.scss';
-@import './header.scss';
+
+@import './_logo.scss';
+
+
+
+@import './_header.scss';
+@import './_hero.scss';
