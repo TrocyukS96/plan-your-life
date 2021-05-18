@@ -71,15 +71,13 @@ function serve() {
 }
 
 // HTML 
-function html(cb) {
-    return src(path.src.html, {base: srcPath}) 
+const html = () => (
+     src(path.src.html, {base: srcPath}) 
          //.pipe() - Это 1 конкретное действие, которое мы хотим совершить над нашими файлами.
         .pipe(plumber())
         .pipe(dest(path.build.html))
-        .pipe(browserSync.reload({stream: true}));
-
-    cb();
-}
+        .pipe(browserSync.reload({stream: true}))
+)
 
 // CSS 
 function css(cb) {
@@ -120,6 +118,7 @@ function css(cb) {
 
     cb();
 }
+
 
 // Для быстрой компиляции CSS во время разработки 
 function cssWatch(cb) {

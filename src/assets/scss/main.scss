@@ -52,3 +52,47 @@ li {
 @import './_header.scss';
 @import './_hero.scss';
 @import './_customers.scss';
+@import './_plan.scss';
+
+
+
+.group1 {
+    position: relative;
+
+
+
+}
+
+.circle1 {
+    &:hover {
+        fill: red;
+    }
+}
+
+.circle1 {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        border: 1px solid #000;
+        width: 510px;
+        height: 510px;
+
+        background-color: green;
+
+
+    }
+}
+
+
+.group1:hover+.img {
+    display: block;
+}
+
+.img {
+    display: none;
+}
