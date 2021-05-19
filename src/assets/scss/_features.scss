@@ -1,9 +1,13 @@
 .features {
-   padding: 171px 0;
+   padding: 10.7rem 0;
 
    background-image: url('/assets/images/features/clouds.png');
    background-repeat: no-repeat;
    background-position-y: 113px;
+
+   @media screen and (max-width:1280px) {
+      padding: 4rem 0;
+   }
 
    .features__top {
       margin-bottom: 20px;
@@ -34,17 +38,25 @@
    }
 
    .feauters__columns {
-      margin-bottom: 92px;
+      margin-bottom: 5.75rem;
+
+      @media screen and (max-width:768px) {
+         margin-bottom: 3rem;
+      }
    }
 
    .feauters__column {
       display: flex;
       flex-direction: column;
       align-items: center;
+
+      @media screen and (max-width:768px) {
+         margin-bottom: 1rem;
+      }
    }
 
    .column__img-wrap {
-      margin-bottom: 33px;
+      margin-bottom: 2.0rem;
 
       padding-top: 20px;
 
@@ -53,13 +65,15 @@
 
       background-color: #F1F5FF;
 
-
-
       border-radius: 50%;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
+
+      @media screen and (max-width:768px) {
+         margin-bottom: 0;
+      }
    }
 
    .column__title {
@@ -85,12 +99,16 @@
 
    .features__btns {
       span {
-         padding: 0 47px;
+         padding: 0 2.9rem;
 
          @include textEdit(OpenSans, 600, 0.6875rem, 1.7);
 
          text-align: center;
          color: #ADB3CB;
+
+         @media screen and (max-width:1280px) {
+            padding: 0 1rem;
+         }
       }
 
       .features__btn {
