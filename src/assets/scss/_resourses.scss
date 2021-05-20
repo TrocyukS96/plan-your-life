@@ -1,0 +1,271 @@
+.resourses {
+
+   padding: 104px 0 213px;
+   background-color: #F5F8FF;
+
+
+   @media screen and (max-width:1200px) {
+      padding: 30px 0 50px;
+   }
+}
+
+.resourses__top {
+   margin-bottom: 1.25rem;
+   @include textEdit(Roboto, 500, 0.6rem, 1.2);
+
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+
+   color: $titleColor;
+
+   text-align: center;
+}
+
+.resourses__title {
+   margin-bottom: 5.75rem;
+   @include textEdit(Quicksand, 500, 1.5rem, 1.25);
+
+   text-align: center;
+
+   color: #3D4F9F;
+
+   @media screen and (max-width:1200px) {
+      margin-bottom: 1rem;
+   }
+}
+
+.resourses-slider__inner {
+   width: 86%;
+
+   margin: 0 auto;
+   padding-left: 20px;
+
+   background-color: #fff;
+
+   @media screen and (max-width:567px) {
+      padding: 0;
+   }
+
+}
+
+
+.resourses__slide {
+
+   padding: 63px 45px 64px 0;
+
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+
+   position: relative;
+
+   @media screen and (max-width:567px) {
+      padding: 0;
+   }
+}
+
+.btn-search {
+   position: absolute;
+
+   display: none;
+}
+
+
+.resourses__slide-images {
+   display: grid;
+
+   grid-template-rows: auto auto;
+   grid-template-columns: auto auto;
+
+   grid-template-areas:
+      "img1 img2"
+      "img1 img3";
+
+   column-gap: 12px;
+   row-gap: 12px;
+
+   align-content: start;
+
+
+   @media screen and (max-width:567px) {
+      grid-template-rows: auto;
+      grid-template-columns: auto;
+
+      grid-template-areas:
+         "img1"
+         "img2"
+         "img3";
+   }
+
+   justify-content: center;
+   align-content: center;
+   text-align: center;
+}
+
+.resourses__slide-img-1 {
+   grid-area: img1;
+
+   width: 267.32px;
+   height: 267px;
+}
+
+.resourses__slide-img-2 {
+   grid-area: img2;
+
+   width: 126.84px;
+   height: 126.58px;
+}
+
+.resourses__slide-img-3 {
+   grid-area: img3;
+
+   width: 126.84px;
+   height: 126.58px;
+}
+
+.resourses__slide-img-1,
+.resourses__slide-img-2,
+.resourses__slide-img-3 {
+   @media screen and (max-width:567px) {
+      width: 100%;
+      height: 100%;
+   }
+
+}
+
+
+.resourses__slide-descr {
+   max-width: 408px;
+
+   margin-left: 67px;
+
+   @media screen and (max-width:1200px) {
+      margin-left: 0;
+
+      margin-top: 20px;
+
+      text-align: center;
+   }
+}
+
+.resourses__slide-title {
+   margin-bottom: 2rem;
+
+
+   @include textEdit(Quicksand, 400, 2.25rem, 1.25);
+
+   color: $titleColor;
+
+   @media screen and (max-width:1200px) {
+      margin-bottom: 1rem;
+   }
+
+}
+
+.resourses__slide-txt {
+   margin-bottom: 31px;
+
+   @include textEdit(Roboto, 400, 0.8475rem, 1.92);
+
+   letter-spacing: 0.03em;
+
+   color: $secondaryColor;
+}
+
+.resourses__slide-btn {
+   margin-right: 32px;
+
+
+   @include textEdit(Quicksand, 700, 0.81rem, 1.23);
+
+   &:last-child {
+      margin: 0;
+
+      width: 211px;
+      height: 43px;
+
+      color: #A6B6DA;
+
+      background-color: $primaryColor;
+   }
+
+   &:first-child {
+
+
+      background-color: #D2E1FF;
+      border-radius: 2px;
+      border-color: transparent;
+
+      width: 113px;
+      height: 43px;
+
+      color: $accentColor;
+   }
+}
+
+.resourses__slide-next-icon {
+   width: 23px;
+   height: 15px;
+   background-image: url('/assets/images/icons/arrow-right.png');
+   background-repeat: no-repeat;
+   transform: translateX(10px);
+   -webkit-transform: translateX(10px);
+   -moz-transform: translateX(10px);
+   -ms-transform: translateX(10px);
+   -o-transform: translateX(10px);
+}
+
+.resourses__slide-prev-icon {
+   width: 23px;
+   height: 15px;
+
+   background-image: url('/assets/images/icons/arrow-left.png');
+
+   background-repeat: no-repeat;
+}
+
+// .resources-control-prev {
+//    left: -15px;
+// }
+
+// .resources-control-next {}
+
+.carousel-control-prev,
+.carousel-control-next {
+   width: 3%;
+   height: 7%;
+
+   top: 167px;
+
+   border-style: none;
+   background-color: transparent;
+
+
+   @media screen and (max-width:1200px) {
+      top: 43%;
+
+      width: 5%;
+   }
+}
+
+@media screen and (max-width:1200px) {}
+
+@media screen and (max-width:567px) {}
+
+
+.resourses__indicator {
+   margin-right: 10px;
+
+   display: block;
+   width: 8px;
+   height: 14px;
+
+   border-radius: 50%;
+
+   background-color: $accentColor;
+
+   border: 2px;
+
+
+
+}
