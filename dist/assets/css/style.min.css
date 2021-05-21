@@ -579,22 +579,16 @@ li {
     font-weight: 600;
     font-size: 0.75rem;
     line-height: 1.9;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 23px;
     letter-spacing: 0.03em;
     color: #A4ABC8; }
-  .quotes .quotes__slider-inner {
+  .quotes__slider-inner {
     height: 100%; }
-  .quotes .quotes__slide {
+  .quotes__slide {
     position: relative; }
   .quotes__slide-inner {
     margin: 0 auto;
-    padding-bottom: 40px;
-    padding-top: 20px;
-    width: 423px;
+    padding: 1.25rem 0.625rem 2.5rem 0.625rem;
+    width: 26.4rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -621,6 +615,85 @@ li {
       -moz-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
       -o-transform: translateX(-50%); }
+
+.help {
+  padding: 11.2rem 0 10.9rem; }
+  @media screen and (max-width: 1000px) {
+    .help {
+      padding: 3rem 0 3rem; } }
+  .help .title__text {
+    margin-bottom: 1.25rem;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D4F9F; }
+  .help .title__slogan {
+    display: block;
+    margin-bottom: 4.25rem;
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    text-align: center;
+    color: #3D4F9F; }
+  .help .accordion > .card {
+    border: none;
+    border-bottom: 1px solid #D8E3FE; }
+  .help .collapsed {
+    padding-top: 10px; }
+    .help .collapsed img {
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg); }
+  .help .show {
+    padding-top: 20px; }
+  .help .card-header {
+    background-color: #fff; }
+  .help__card-btn {
+    transform: translate(-18px, -1px); }
+    .help__card-btn img {
+      width: 21px;
+      height: 10px; }
+  .help__card-title-text {
+    display: inline-block;
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.27;
+    letter-spacing: 0.03em;
+    color: #8E96B7; }
+  .help__card-body {
+    display: flex; }
+  .help__card-text {
+    max-width: 24.3rem;
+    margin-right: 3.87rem;
+    margin-left: 4.25rem;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.92;
+    letter-spacing: 0.03em;
+    color: #8D96BD; }
+    @media screen and (max-width: 1000px) {
+      .help__card-text {
+        max-width: 26.8rem;
+        margin-right: 2rem;
+        margin-left: 0; } }
+  .help__card-body-btn {
+    width: 195px;
+    height: 43px;
+    background-color: #E8ECF4;
+    border-radius: 2px;
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 0.81rem;
+    line-height: 1.23;
+    color: #7382A3; }
 
 .group1 {
   position: relative; }

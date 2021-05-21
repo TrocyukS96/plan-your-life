@@ -31,8 +31,6 @@
       }
    }
 
-   &__column {}
-
    &__column-top {
       margin-bottom: 1.93rem;
 
@@ -63,23 +61,17 @@
    &__column-txt {
       @include textEdit(OpenSans, 600, 0.75rem, 1.9);
 
-      font-family: Open Sans;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 12px;
-      line-height: 23px;
-
       letter-spacing: 0.03em;
 
       color: #A4ABC8;
    }
 
 
-   .quotes__slider-inner {
+   &__slider-inner {
       height: 100%;
    }
 
-   .quotes__slide {
+   &__slide {
       position: relative;
    }
 
@@ -87,10 +79,9 @@
    &__slide-inner {
       margin: 0 auto;
 
-      padding-bottom: 40px;
-      padding-top: 20px;
+      padding: 1.25rem 0.625rem 2.5rem 0.625rem;
 
-      width: 423px;
+      width: 26.4rem;
       height: 100%;
 
       display: flex;
@@ -126,20 +117,5 @@
          -ms-transform: translateX(-50%);
          -o-transform: translateX(-50%);
       }
-
-
-      &__slide {}
-
-      .carousel-caption {}
-
-      .carousel-control-prev {}
-
-      .carousel-control-prev-icon {}
-
-      .visually-hidden {}
-
-      .carousel-control-next {}
-
-      .carousel-control-next-icon {}
    }
 }
